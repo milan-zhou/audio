@@ -10,7 +10,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Text-to-Speech with Tacotron2 &mdash; Torchaudio 2.2.0.dev20240130 documentation</title>
+  <title>Text-to-Speech with Tacotron2 &mdash; Torchaudio 2.2.0.dev20240208 documentation</title>
   
 
   
@@ -224,7 +224,7 @@
           <div class="pytorch-left-menu-search">
             
     <div class="version">
-      <a href="../../versions.html"><span style="font-size:110%">2.2.0.dev20240130 &#x25BC</span></a>
+      <a href="../../versions.html"><span style="font-size:110%">2.2.0.dev20240208 &#x25BC</span></a>
     </div>
     
 
@@ -513,8 +513,8 @@ pip3<span class="w"> </span>install<span class="w"> </span>deep_phonemizer
 <span class="nb">print</span><span class="p">(</span><a href="https://docs.python.org/3/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">device</span></a><span class="p">)</span>
 </pre></div>
 </div>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>2.3.0.dev20240129
-2.2.0.dev20240130
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>2.3.0.dev20240207
+2.2.0.dev20240208
 cuda
 </pre></div>
 </div>
@@ -612,23 +612,24 @@ fetched.</p>
 </pre></div>
 </div>
 <div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>  0%|          | 0.00/63.6M [00:00&lt;?, ?B/s]
-  0%|          | 128k/63.6M [00:00&lt;01:32, 724kB/s]
-  1%|          | 384k/63.6M [00:00&lt;00:57, 1.15MB/s]
-  2%|1         | 1.25M/63.6M [00:00&lt;00:22, 2.95MB/s]
-  7%|7         | 4.50M/63.6M [00:00&lt;00:06, 9.23MB/s]
- 15%|#5        | 9.75M/63.6M [00:00&lt;00:03, 16.9MB/s]
- 24%|##4       | 15.4M/63.6M [00:01&lt;00:02, 22.2MB/s]
- 32%|###1      | 20.1M/63.6M [00:01&lt;00:01, 28.1MB/s]
- 38%|###7      | 24.0M/63.6M [00:01&lt;00:01, 26.6MB/s]
- 44%|####3     | 27.9M/63.6M [00:01&lt;00:01, 29.7MB/s]
- 52%|#####1    | 32.9M/63.6M [00:01&lt;00:01, 30.0MB/s]
- 58%|#####7    | 36.8M/63.6M [00:01&lt;00:00, 32.1MB/s]
- 65%|######5   | 41.4M/63.6M [00:01&lt;00:00, 31.1MB/s]
- 71%|#######   | 45.0M/63.6M [00:02&lt;00:00, 32.1MB/s]
- 79%|#######8  | 50.1M/63.6M [00:02&lt;00:00, 32.2MB/s]
- 84%|########4 | 53.8M/63.6M [00:02&lt;00:00, 33.0MB/s]
- 92%|#########1| 58.4M/63.6M [00:02&lt;00:00, 31.7MB/s]
- 98%|#########7| 62.2M/63.6M [00:02&lt;00:00, 33.2MB/s]
+  0%|          | 128k/63.6M [00:00&lt;02:18, 482kB/s]
+  1%|          | 640k/63.6M [00:00&lt;00:39, 1.65MB/s]
+  4%|3         | 2.25M/63.6M [00:00&lt;00:13, 4.83MB/s]
+ 10%|#         | 6.62M/63.6M [00:00&lt;00:04, 14.9MB/s]
+ 16%|#6        | 10.2M/63.6M [00:00&lt;00:03, 17.6MB/s]
+ 23%|##2       | 14.4M/63.6M [00:01&lt;00:02, 23.6MB/s]
+ 30%|##9       | 19.0M/63.6M [00:01&lt;00:01, 25.2MB/s]
+ 35%|###5      | 22.4M/63.6M [00:01&lt;00:01, 27.6MB/s]
+ 43%|####2     | 27.2M/63.6M [00:01&lt;00:01, 33.4MB/s]
+ 49%|####8     | 30.9M/63.6M [00:01&lt;00:01, 29.6MB/s]
+ 54%|#####4    | 34.4M/63.6M [00:01&lt;00:00, 31.3MB/s]
+ 60%|#####9    | 38.1M/63.6M [00:01&lt;00:00, 33.4MB/s]
+ 67%|######6   | 42.5M/63.6M [00:01&lt;00:00, 31.4MB/s]
+ 72%|#######2  | 46.0M/63.6M [00:02&lt;00:00, 32.3MB/s]
+ 79%|#######9  | 50.5M/63.6M [00:02&lt;00:00, 36.1MB/s]
+ 85%|########5 | 54.1M/63.6M [00:02&lt;00:00, 31.5MB/s]
+ 91%|######### | 57.8M/63.6M [00:02&lt;00:00, 32.9MB/s]
+ 96%|#########6| 61.1M/63.6M [00:02&lt;00:00, 33.2MB/s]
 100%|##########| 63.6M/63.6M [00:02&lt;00:00, 26.1MB/s]
 /pytorch/audio/ci_env/lib/python3.10/site-packages/torch/nn/modules/transformer.py:292: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
   warnings.warn(f&quot;enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}&quot;)
@@ -681,9 +682,17 @@ models and processors together so that it is easy to create the pipeline.</p>
 Downloading: &quot;https://download.pytorch.org/torchaudio/models/tacotron2_english_phonemes_1500_epochs_wavernn_ljspeech.pth&quot; to /root/.cache/torch/hub/checkpoints/tacotron2_english_phonemes_1500_epochs_wavernn_ljspeech.pth
 
   0%|          | 0.00/107M [00:00&lt;?, ?B/s]
- 37%|###6      | 39.6M/107M [00:00&lt;00:00, 415MB/s]
- 74%|#######3  | 79.2M/107M [00:00&lt;00:00, 362MB/s]
-100%|##########| 107M/107M [00:00&lt;00:00, 374MB/s]
+ 14%|#3        | 14.9M/107M [00:00&lt;00:00, 149MB/s]
+ 27%|##7       | 29.1M/107M [00:00&lt;00:01, 80.9MB/s]
+ 36%|###5      | 38.5M/107M [00:00&lt;00:01, 58.0MB/s]
+ 45%|####4     | 48.0M/107M [00:00&lt;00:01, 53.0MB/s]
+ 58%|#####8    | 62.9M/107M [00:00&lt;00:00, 74.1MB/s]
+ 67%|######6   | 72.0M/107M [00:01&lt;00:00, 49.1MB/s]
+ 74%|#######4  | 80.0M/107M [00:01&lt;00:00, 45.9MB/s]
+ 89%|########9 | 96.0M/107M [00:01&lt;00:00, 51.7MB/s]
+ 95%|#########4| 102M/107M [00:02&lt;00:00, 31.5MB/s]
+ 99%|#########8| 106M/107M [00:02&lt;00:00, 24.0MB/s]
+100%|##########| 107M/107M [00:02&lt;00:00, 39.9MB/s]
 </pre></div>
 </div>
 <p>Note that <code class="docutils literal notranslate"><span class="pre">Tacotron2.infer</span></code> method perfoms multinomial sampling,
@@ -737,7 +746,9 @@ WaveRNN model from the same bundle.</p>
 Downloading: &quot;https://download.pytorch.org/torchaudio/models/wavernn_10k_epochs_8bits_ljspeech.pth&quot; to /root/.cache/torch/hub/checkpoints/wavernn_10k_epochs_8bits_ljspeech.pth
 
   0%|          | 0.00/16.7M [00:00&lt;?, ?B/s]
-100%|##########| 16.7M/16.7M [00:00&lt;00:00, 383MB/s]
+ 47%|####6     | 7.75M/16.7M [00:00&lt;00:00, 68.4MB/s]
+ 86%|########6 | 14.4M/16.7M [00:00&lt;00:00, 68.1MB/s]
+100%|##########| 16.7M/16.7M [00:00&lt;00:00, 43.1MB/s]
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">plot</span><span class="p">(</span><a href="https://pytorch.org/docs/stable/tensors.html#torch.Tensor" title="torch.Tensor" class="sphx-glr-backref-module-torch sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">waveforms</span></a><span class="p">,</span> <a href="https://pytorch.org/docs/stable/tensors.html#torch.Tensor" title="torch.Tensor" class="sphx-glr-backref-module-torch sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">spec</span></a><span class="p">,</span> <span class="n">sample_rate</span><span class="p">):</span>
@@ -789,11 +800,20 @@ method and pass the spectrogram.</p>
 Downloading: &quot;https://download.pytorch.org/torchaudio/models/tacotron2_english_phonemes_1500_epochs_ljspeech.pth&quot; to /root/.cache/torch/hub/checkpoints/tacotron2_english_phonemes_1500_epochs_ljspeech.pth
 
   0%|          | 0.00/107M [00:00&lt;?, ?B/s]
- 23%|##2       | 24.4M/107M [00:00&lt;00:00, 253MB/s]
- 45%|####5     | 48.6M/107M [00:00&lt;00:00, 225MB/s]
- 75%|#######4  | 80.5M/107M [00:00&lt;00:00, 271MB/s]
- 99%|#########9| 107M/107M [00:00&lt;00:00, 258MB/s]
-100%|##########| 107M/107M [00:00&lt;00:00, 255MB/s]
+ 14%|#3        | 14.9M/107M [00:00&lt;00:00, 153MB/s]
+ 28%|##7       | 29.6M/107M [00:00&lt;00:01, 74.8MB/s]
+ 36%|###6      | 38.8M/107M [00:00&lt;00:01, 50.3MB/s]
+ 42%|####1     | 45.1M/107M [00:00&lt;00:01, 51.9MB/s]
+ 48%|####7     | 51.1M/107M [00:01&lt;00:01, 31.7MB/s]
+ 52%|#####1    | 55.8M/107M [00:01&lt;00:01, 32.8MB/s]
+ 60%|#####9    | 64.0M/107M [00:01&lt;00:01, 38.6MB/s]
+ 68%|######8   | 73.6M/107M [00:01&lt;00:00, 45.3MB/s]
+ 74%|#######4  | 79.8M/107M [00:01&lt;00:00, 35.5MB/s]
+ 78%|#######8  | 83.9M/107M [00:02&lt;00:00, 32.8MB/s]
+ 89%|########9 | 96.0M/107M [00:02&lt;00:00, 43.9MB/s]
+ 94%|#########3| 101M/107M [00:02&lt;00:00, 36.0MB/s]
+ 99%|#########9| 107M/107M [00:02&lt;00:00, 36.3MB/s]
+100%|##########| 107M/107M [00:02&lt;00:00, 41.4MB/s]
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">plot</span><span class="p">(</span><a href="https://pytorch.org/docs/stable/tensors.html#torch.Tensor" title="torch.Tensor" class="sphx-glr-backref-module-torch sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">waveforms</span></a><span class="p">,</span> <a href="https://pytorch.org/docs/stable/tensors.html#torch.Tensor" title="torch.Tensor" class="sphx-glr-backref-module-torch sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">spec</span></a><span class="p">,</span> <span class="n">vocoder</span><span class="o">.</span><span class="n">sample_rate</span><span class="p">)</span>
@@ -862,7 +882,7 @@ Downloading: &quot;https://api.ngc.nvidia.com/v2/models/nvidia/waveglowpyt_fp32/
 
 </div>
 <br />
-<br /><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 1 minutes  50.902 seconds)</p>
+<br /><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 2 minutes  1.801 seconds)</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-tutorials-tacotron2-pipeline-tutorial-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
 <p><a class="reference download internal" download="" href="../_downloads/9772cbd0af96f57f17a2da758b365a43/tacotron2_pipeline_tutorial.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">tacotron2_pipeline_tutorial.py</span></code></a></p>
